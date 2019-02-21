@@ -59,6 +59,7 @@ public class NationHelpExecutor implements CommandExecutor
 		contents.add(Text.of(TextColors.GOLD, "/n setspawn <name>", TextColors.GRAY, " - ", TextColors.YELLOW, LanguageHandler.HELP_DESC_CMD_SETSPAWN));
 		contents.add(Text.of(TextColors.GOLD, "/n delspawn <name>", TextColors.GRAY, " - ", TextColors.YELLOW, LanguageHandler.HELP_DESC_CMD_DELSPAWN));
 		contents.add(Text.of(TextColors.GOLD, "/n buyextra <amount>", TextColors.GRAY, " - ", TextColors.YELLOW, LanguageHandler.HELP_DESC_CMD_N_BUYEXTRA));
+		contents.add(Text.of(TextColors.GOLD, "/n war <nation>", TextColors.GRAY, " - ", TextColors.YELLOW, LanguageHandler.HELP_DESC_CMD_N_WAR));
 
 		PaginationList.builder()
 		.title(Text.of(TextColors.GOLD, "{ ", TextColors.YELLOW, "/nation", TextColors.GOLD, " }"))

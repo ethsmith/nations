@@ -40,6 +40,7 @@ public class LanguageHandler
 	public static String HELP_DESC_CMD_N_VISIT = "teleport to spawn of a public nation";
 	public static String HELP_DESC_CMD_N_COST = "display nation prices";
 	public static String HELP_DESC_CMD_N_HOME = "if you have a spawn named 'home', tp to it";
+	public static String HELP_DESC_CMD_N_WAR = "Go to war with specified nation";
 	
 	public static String HELP_DESC_CMD_NA_RELOAD = "reloads config file";
 	public static String HELP_DESC_CMD_NA_CREATE = "create admin nation";
@@ -159,6 +160,7 @@ public class LanguageHandler
 	public static String ERROR_TAGALPHA = "Nation tag must be alphanumeric";
 	public static String ERROR_TAGLENGTH = "Nation tag must contain at least {MIN} and at most {MAX} characters";
 	public static String INFO_NEWNATIONANNOUNCE = "{PLAYER} has created a new nation named {NATION}";
+	public static String INFO_NEWWARANNOUNCE = "{NATION} has went to war with {ENEMYNATION}";
 	public static String INFO_NEWNATION = "You successfully created nation {NATION}, don't forget to deposit money in the nation's bank with /n deposit";
 	public static String INFO_CLICK_DELSPAWN = "Click to delete spawn {SPAWNLIST} ";
 	public static String ERROR_BADSPAWNNAME = "Your nation doen't have any spawn with that name";
@@ -241,6 +243,7 @@ public class LanguageHandler
 	public static String ERROR_MAXSPAWNREACH = "Your nation can't have more than {MAX} spawns";
 	public static String SUCCESS_ZONERENAME = "You renamed the zone to {ZONE}";
 	public static String ERROR_NATIONNOTPUBLIC = "This nation is not public";
+	public static String ERROR_NATIONDOESNTEXIST = "This nation does not exist!";
 	public static String INFO_TELEPORTCOOLDOWN = "Teleport will start in 10 seconds";
 	public static String ERROR_NOHOME = "No spawn named 'home' found. Make one with /n setspawn home";
 	public static String DEFAULT_ZONENAME = "Unnamed";
